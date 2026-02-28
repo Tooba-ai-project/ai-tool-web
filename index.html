@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tooba Urooj AI Tools Portal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Tooba Urooj</h1>
+  <p>Roll No: SU73-BSAIM-F24-018 | BSAI 4th Semester</p>
+  <p>Course: Programming for AI | Assessment 4</p>
+</header>
+
+<section id="dashboard">
+  <h2>Recently Viewed</h2>
+  <div id="recent"></div>
+</section>
+
+<section id="search-section">
+  <input type="text" id="searchBar" placeholder="Search tools...">
+  <select id="categoryFilter">
+    <option value="">All Categories</option>
+    <option value="Text">Text</option>
+    <option value="Image">Image</option>
+    <option value="Audio">Audio</option>
+    <option value="Video">Video</option>
+    <option value="Code">Code</option>
+  </select>
+  <button id="toggleTheme">Toggle Dark/Light Mode</button>
+</section>
+
+<main>
+  <div class="tools-container" id="toolsContainer"></div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
